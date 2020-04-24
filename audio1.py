@@ -8,7 +8,7 @@ S_RATE = 200# sampling rate (Hz)
 CHUNK = int(RATE/S_RATE) # length of a sample chunk
 S_RATE = RATE/CHUNK # redefine sample rate based on integer chunk length
 
-L_data = 100*CHUNK
+L_data = 20*CHUNK
 
 
 p=pyaudio.PyAudio() # start the PyAudio class
